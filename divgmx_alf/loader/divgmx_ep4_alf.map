@@ -1,0 +1,13 @@
+BLOCK		START ADDRESS		END ADDRESS
+
+Page_0		0x00000000		0x00059D8A
+Original 27C010.hex		0x00060000		0x0007F79F
+ALF_1.hex		0x00080000		0x000BFFFF
+
+
+
+Notes:
+
+- Data checksum for this conversion is 0x76DBD657
+
+- All the addresses in this file are byte addresses

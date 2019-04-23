@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes"?>
+<cof>
+	<eprom_name>EPCS64</eprom_name>
+	<flash_loader_device>EP4CE10</flash_loader_device>
+	<output_filename>output_files/divgmx_ep4_alf.jic</output_filename>
+	<n_pages>1</n_pages>
+	<width>1</width>
+	<mode>7</mode>
+	<hex_block>
+		<hex_filename>C:/work/reverse/divgmx/fpga/divgmx_alf/rom/rom_alf1/ALF_1.hex</hex_filename>
+		<hex_addressing>relative</hex_addressing>
+		<hex_offset>524288</hex_offset>
+	</hex_block>
+	<hex_block>
+		<hex_filename>C:/work/reverse/divgmx/fpga/divgmx_alf/rom/rom_alf/Original 27C010.hex</hex_filename>
+		<hex_addressing>relative</hex_addressing>
+		<hex_offset>393216</hex_offset>
+	</hex_block>
+	<sof_data>
+		<start_address>00000000</start_address>
+		<user_name>Page_0</user_name>
+		<page_flags>1</page_flags>
+		<bit0>
+			<sof_filename>output_files/divgmx.sof</sof_filename>
+		</bit0>
+	</sof_data>
+	<version>5</version>
+	<create_cvp_file>0</create_cvp_file>
+	<options>
+		<map_file>1</map_file>
+	</options>
+</cof>
